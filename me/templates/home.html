@@ -1,0 +1,255 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="container column display-flex align-center flex-w vh-50 justify-center min-h-500">
+
+    <div class="column justify-center text-align-center drop-start " id="panel">
+        <h2>Aldwin Tablante</h2>
+        <h4 class="l-custom-1">Front-End Development Portfolio*</h4>
+        <div class="column container mini-panel p-5  border-rad-10">
+            <h5 class="text-center m-0"><i>portfolio.twoguysbuilders.co</i></h3>
+            <ul class="">
+                <li><small>Page Built on Django Framework served with Nginx + Gunicorn </small>
+                </li>
+                <li><small>Images on <a href="#skills">skills view</a> are from <a href="https://www.flaticon.com/" target="_blank">Flat-Icons</a> </small>
+                </li>
+                <li><small>Implemented using Javascript, Html and CSS</small>
+                </li>
+                <li><small>Designed using Corel Vector</small>
+                </li>
+                <li><small>Hosted on Digital Ocean</small>
+                </li>
+            </ul>
+
+        </div>
+     
+    </div>
+
+    <div class="display-flex row gap-10 ">
+        <a href="" class="custom-a mt-5 p-10  max-w  ">View Resume</a>
+        <a href="" class="custom-a2 mt-5 p-10  max-w ">Projects</a>  
+    </div>
+</div>
+
+
+
+<div class="container column display-flex " >
+  <h5 class="custom-b m-5 show-tag tool-tip" id="dev-skill" > Developer Skills
+    <div class="tool-tip-child"></div>
+  </h5>  
+<div class="row display-flex flex-w p-5 gap-10" id="skills">
+    <div class="column content flex-1  display-flex stat-content show-tag max-w-400 min-h-500">
+        <div class="column margin-left-per5 gap-10 p-5">
+            <h2>Web Development Skills</h2>
+            <div class="column container mt-5 display-flex">
+                <small class="bold stat "><img src="{% static 'js.png' %}" alt="" srcset="" class="logo"> ES6 Javascript</small>
+                <div class="progress-bar-bud justify-center" >
+                    <div class="progress-bar" style="width:80%"></div>
+    
+                </div>
+                <small class="m-5">Advanced</small>
+                </div>
+
+            <div class="column container mt-5 display-flex">
+                <small class="bold stat "> <img src="{% static 'html.png' %}" alt="" srcset="" class="logo"> Html</small>
+                <div class="progress-bar-bud justify-center" >
+                    <div class="progress-bar" style="width:70%"></div>
+    
+                </div>
+                <small class="m-5">Advanced</small>
+                </div>
+
+            <div class="column container mt-5 display-flex">
+                <small class="bold stat "><img src="{% static 'css-3.png' %}" alt="" srcset="" class="logo"> CSS</small>
+                <div class="progress-bar-bud justify-center" >
+                    <div class="progress-bar" style="width:50%"></div>
+    
+                </div>
+                <small class="m-5">Intermediate</small>
+                </div>
+
+            <div class="column container mt-5 display-flex">
+                <small class="bold stat "><img src="{% static 'php.png' %}" alt="" srcset="" class="logo"> PHP</small>
+                <div class="progress-bar-bud justify-center" >
+                    <div class="progress-bar" style="width:50%"></div>
+    
+                </div>
+                <small class="m-5">Intermediate</small>
+                </div>
+
+            <div class="column container mt-5 display-flex">
+                <small class="bold stat "><img src="{% static 'python.png' %}" alt="" srcset="" class="logo"> Python</small>
+                <div class="progress-bar-bud justify-center" >
+                    <div class="progress-bar" style="width:60%"></div>
+    
+                </div>
+                <small class="m-5">Intermediate</small>
+                </div>
+                <div class="column container mt-5 display-flex">
+                    <small class="bold stat "><img src="{% static 'python.png' %}" alt="" srcset="" class="logo"> Django Framework</small>
+                    <div class="progress-bar-bud justify-center" >
+                        <div class="progress-bar" style="width:40%"></div>
+        
+                    </div>
+                    <small class="m-5">Intermediate</small>
+                    </div>
+
+                   <div class="column container mt-5 display-flex">
+                    <small class="bold stat "><img src="{% static 'c-sharp.png' %}" alt="" srcset="" class="logo"> ASP.NET C#</small>
+                    <div class="progress-bar-bud justify-center" >
+                       <div class="progress-bar" style="width:30%"></div>
+           
+                    </div>
+                     <small class="m-5">Novice</small>
+                  </div>
+                
+                  <div class="column container mt-5 display-flex">
+                    <small class="bold stat "><img src="{% static 'vue.png' %}" alt="" srcset="" class="logo">VueJs</small>
+                    <div class="progress-bar-bud justify-center" >
+                       <div class="progress-bar" style="width:60%"></div>
+           
+                    </div>
+                     <small class="m-5">Intermediate</small>
+                  </div>
+        </div>
+    </div>    
+    <div class="column content flex-1  display-flex stat-content show-tag max-w-400">
+        <div class="column margin-left-per5 gap-10 p-5">
+            <h2>Mobile Development Skills</h2>
+            <div class="column container mt-5 display-flex">
+                <small class="bold stat "><img src="{% static 'android.png' %}" alt="" srcset="" class="logo"> Java</small>
+                <div class="progress-bar-bud justify-center" >
+                    <div class="progress-bar" style="width:75%"></div>
+    
+                </div>
+                <small class="m-5">Advanced</small>
+                </div>
+
+            <div class="column container mt-5 display-flex">
+                <small class="bold stat "><img src="{% static 'android.png' %}" alt="" srcset="" class="logo"> Kotlin</small>
+                <div class="progress-bar-bud justify-center" >
+                    <div class="progress-bar" style="width:40%"></div>
+    
+                </div>
+                <small class="m-5">Intermediate</small>
+                </div>
+            <div class="column container mt-5 display-flex">
+                <small class="bold stat "><img src="{% static 'apple.png' %}" alt="" srcset="" class="logo"> Swift</small>
+                <div class="progress-bar-bud justify-center" >
+                    <div class="progress-bar" style="width:40%"></div>
+    
+                </div>
+                <small class="m-5">Intermediate</small>
+                </div>
+
+            <div class="column container mt-5 display-flex">
+                <small class="bold stat "><img src="{% static 'android.png' %}" alt="" srcset="" class="logo"><img src="{% static 'apple.png' %}" alt="" srcset="" class="logo">Flutter</small>
+                <div class="progress-bar-bud justify-center" >
+                    <div class="progress-bar" style="width:30%"></div>
+    
+                </div>
+                <small class="m-5">Novice</small>
+                </div>
+
+          
+        </div>
+    </div>    
+    <div class="column content flex-1 stat-content display-flex stat-content show-tag  max-w-400">
+        <div class="column margin-left-per5 gap-10 p-5">
+        <h2>Other Skills</h2>
+        <div class="column container mt-5 display-flex">
+            <small class="bold stat ">Communication - Verbal</small>
+            <div class="progress-bar-bud justify-center" >
+                <div class="progress-bar" style="width:30%"></div>
+            </div>
+            <small class="m-5">Novice</small>
+            </div>
+
+        <div class="column container mt-5 display-flex">
+            <small class="bold stat ">Communication - Written</small>
+            <div class="progress-bar-bud justify-center" >
+                <div class="progress-bar" style="width:70%"></div>
+
+            </div>
+            <small class="m-5">Intermediate</small>
+            </div>
+        <div class="column container mt-5 display-flex">
+            <small class="bold stat ">Git Version Control</small>
+            <div class="progress-bar-bud justify-center" >
+                <div class="progress-bar" style="width:80%"></div>
+
+            </div>
+            <small class="m-5">Advanced</small>
+            </div>
+
+        <div class="column container mt-5 display-flex">
+            <small class="bold stat ">Corel Vector for UI/UX </small>
+            <div class="progress-bar-bud justify-center" >
+                <div class="progress-bar" style="width:50%"></div>
+
+            </div>
+            <small class="m-5">Intermediate</small>
+            </div>
+
+        <div class="column container mt-5 display-flex">
+        <small class="bold stat ">Nginx</small>
+        <div class="progress-bar-bud justify-center" >
+            <div class="progress-bar" style="width:60%"></div>
+
+        </div>
+        <small class="m-5">Intermediate</small>
+        </div>
+
+        <div class="column container mt-5 display-flex">
+            <small class="bold stat ">MySQL</small>
+            <div class="progress-bar-bud justify-center" >
+                <div class="progress-bar" style="width:50%"></div>
+    
+            </div>
+            <small class="m-5">Intermediate</small>
+            </div>
+    </div>
+    </div>    
+</div>
+<div class="column display-flex  p-5 ">
+    <div class="column    min-h-500  display-flex">
+        <h5 class="custom-b  m-5 show-tag tool-tip align-self" >Experience</h5>     
+        <div class="row display-flex min-h-500 border-rad-10 mt-5  show-tag">
+          
+            <div class="row flex-1 stat-content  m-5 show-tag gap-10 ">
+                <div class="row flex-1 display-flex justify-center align-center">
+                    <div class="column display-flex p-5 justify-center prev">
+                        <img src="{% static 'next.png'%}" alt="" srcset="" class="">
+                    </div>
+                    <div class="column container display-flex flex-1 m-5 justify-center align-center border-rad-10 flex-w showcase max-w-300 align-self bg-white mid-fam">
+                        <img src="{% static 'micab.webp'%}" class="exp-logo" alt="">
+                        <div class="column p-5">
+                            <h4 class="">Position</h4>
+                            <p class="m-0 bold">Intern Mobile Developer</p>
+                        </div>
+
+                        <div class="column p-5">
+                            <h4 class="m-0">Year</h4>
+                            <p class="m-0">2018 - 2019</p>
+                        </div>
+                    </div>
+                    <div class="column display-flex p-5 justify-center next show-tag">
+                        <img src="{% static 'prev.png'%}" alt="" class="next-but " srcset="">
+                    </div>
+                
+                </div>
+                <div class="column flex-1 bg-black border-rad-10">
+                    <h4 class="  m-5 custom-b show-tag " > > Scope of Work</h4>     
+
+                </div>
+
+            </div>
+      
+        </div>
+    </div>
+
+</div>
+
+</div>
+{% endblock content %}
